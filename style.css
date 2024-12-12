@@ -481,7 +481,7 @@ section h2 {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 2rem;
+    padding: 7px 15px; /* Adjusted padding for top, bottom, left, and right */
     background-color: white;
     max-width: 90%; /* Responsive scaling */
     text-align: center;
@@ -493,17 +493,12 @@ section h2 {
 }
 
 .map img {
-    width: 100%;
+    width: calc(100% - 30px); /* Subtract padding for a perfect fit */
     max-width: 600px; /* Ensures the map is not too wide */
     border-radius: 8px;
     display: block;
-    margin: 0 auto;
+    margin: 7px auto 0 auto; /* Adds a consistent top margin */
 }
-
-
-
-
-
 
 
 .footer {
